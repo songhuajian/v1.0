@@ -1,0 +1,213 @@
+/*
+* @Author: SongH
+* @Date:   2017-09-28 10:49:57
+* @Last Modified by:   SongH
+* @Last Modified time: 2017-09-28 11:14:12
+*/
+
+body {
+    color: #000;
+    font-family: Monospace;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#bar {
+
+    color: #000;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(240, 235, 213, 0.5);
+    ;
+    padding: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+}
+
+#big {
+    padding: 5px;
+    background-color: #ee0000;
+    float: left;
+    margin: 10px;
+    width: 15%;
+}
+
+#small {
+    padding: 5px;
+    background-color: aqua;
+    overflow: visible;
+    float: left;
+    width: 15%;
+    margin: 10px;
+}
+
+#changeimg {
+    padding: 5px;
+    background-color: cornflowerblue;
+    overflow: visible;
+    float: left;
+    width: 15%;
+    margin: 10px;
+}
+
+#direction {
+    padding: 5px;
+    background-color: floralwhite;
+    overflow: visible;
+    float: left;
+    width: 15%;
+    margin: 10px;
+}
+
+#addtag {
+    padding: 5px;
+    background-color: floralwhite;
+    overflow: visible;
+    float: left;
+    width: 15%;
+    margin: 10px;
+}
+
+.intoroom {
+    background-image: url("../image/icon.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    width: 100px;
+    height: 100px;
+    /* background-size: contain; */
+}
+
+#inputtext {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -200px;
+    width: 400px;
+    min-height: 100px;
+    background-color: rgba(51, 51, 51, 0.8);
+    z-index: 4300;
+    color: #fff;
+    border-radius: 5px;
+    display: none;
+}
+
+#container {
+    /* margin-top: -15px; */
+}
+
+.vrshow_comment {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -200px;
+    width: 400px;
+    min-height: 100px;
+    background-color: rgba(51, 51, 51, 0.8);
+    z-index: 4300;
+    color: #fff;
+    border-radius: 5px;
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .vrshow_comment {
+        width: 250px;
+        margin-left: -125px;
+    }
+}
+
+.row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.col-md-12 {
+    width: 100%;
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 32px;
+    padding: 5px 8px;
+    font-size: 13px;
+    line-height: 1.53846154;
+    color: #222;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+button,
+input,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 12px;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.53846154;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-transition: all .4s cubic-bezier(.175, .885, .32, 1);
+    -o-transition: all .4s cubic-bezier(.175, .885, .32, 1);
+    transition: all .4s cubic-bezier(.175, .885, .32, 1);
+}
+
+#container {
+    margin-top: -15px;
+}
